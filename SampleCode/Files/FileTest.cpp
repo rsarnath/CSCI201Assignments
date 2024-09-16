@@ -1,4 +1,5 @@
-// A simple C++ program
+// A simple C++ program
+
 
 #include <iostream>
 #include <fstream>
@@ -8,7 +9,8 @@ using namespace std;
 int main()
 {
   const int NAMESIZE = 20;
-  //input and output file names can be at most 20 characters.
+  //input and output file names can be at most 20 characters.
+
 
   ifstream in_file;
   ofstream out_file;
@@ -46,7 +48,7 @@ int main()
   out_file << "Integer3 is " << k << endl;
 
   in_file.close();
-  out_file.close(); 
+  out_file.close();  
 
   return 0;
 }
