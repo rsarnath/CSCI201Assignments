@@ -3,14 +3,14 @@
 using namespace std;
 #include <iostream>
 #include <string>
-#ifndef COLORCLASS
-#define COLORCLASS
-// colorClass.h
+#ifndef STARPRINTER
+#define STARPRINTER
+// starprinter.h
 
-class colorClass {
+class starprinter {
  
  
  public:
-  void run(istream&);// runs program; reads from istream
+  void printstars(int);// runs program; reads from istream
 };
 #endif
