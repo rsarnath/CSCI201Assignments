@@ -32,8 +32,8 @@ int main()
 
   strcpy(c, "abcdefghi");
   cout << "c is  " <<  c << endl;
-  c[10] = ' ';c[9] = ' ';c[11] = ' ';c[12] ='?';
-  cout << "c is: " << c << endl;
+  //c[10] = ' ';c[9] = ' ';c[11] = ' ';c[12] ='?';
+  //cout << "c is: " << c << endl;
   
 
 }
