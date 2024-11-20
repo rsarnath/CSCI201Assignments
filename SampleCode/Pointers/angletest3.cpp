@@ -31,7 +31,7 @@ int main()
   char c4[8], c5[9];
   strcpy(c4, "1234");
   cout << " c4 is " << c4 << endl;
-  strcpy(c5, "12345678123456789");
+  //strcpy(c5, "12345678123456789");
   cout << " c4 is " << c4 << endl;
   cout << "c4 at: " << &c4 << endl;
   cout << "c5 at: " << &c5 << endl;
