@@ -47,9 +47,9 @@ endl;
 
    *pb = 26.68; // b is being changed
    cout << "b is: " << b << endl;
-
-  *(pb+1) = 15.53; // pb+1 is the address of a; we are changing 
-                   // a to 15.53!!!
+  int addr_diff2 = -1;
+  *(pb+ addr_diff2) = 15.53; // pb-1 is the address of a; we are changing 
+                   // a (int) to 15.53!!!
 
   cout << "a is: " << a << endl;
 
